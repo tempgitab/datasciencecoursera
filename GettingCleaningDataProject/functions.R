@@ -5,10 +5,14 @@
 download.rawData <- function(){
     url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
     file <- 'rawdata.zip'
-    print("downloading and extracting raw data")
-    download(url,file)
-    unzip(file)
-    print("Dataset downloaded")
+    if(!file.exists(file)){
+        print("downloading and extracting raw data")
+        download(url,file)
+        unzip(file)
+        print("Dataset downloaded")
+    }else{
+        print("Using previously downloaded dataset")
+    }
 }
 
 # load the dataset of the specified label  
