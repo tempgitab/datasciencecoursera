@@ -16,7 +16,9 @@ checkDependencies(c("downloader","data.table"))
 ## ==================================
 
 # p1. download data
-download.rawData()
+url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+file <- 'rawdata.zip'
+download.rawData(url,file)
 # p2. load raw datasets
 setwd('UCI HAR Dataset/')
 trainingSet <- load.rawData ("train")
