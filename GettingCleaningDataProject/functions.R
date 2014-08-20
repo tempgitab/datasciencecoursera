@@ -2,13 +2,11 @@
 
 
 #downloads and extracts row data
-download.rawData <- function(){
-    url <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-    file <- 'rawdata.zip'
-    if(!file.exists(file)){
+download.rawData <- function(url,targetFile){
+    if(!file.exists(targetFile)){
         print("downloading and extracting raw data")
-        download(url,file)
-        unzip(file)
+        download(url,targetFile)
+        unzip(targetFile)
         print("Dataset downloaded")
     }else{
         print("Using previously downloaded dataset")
