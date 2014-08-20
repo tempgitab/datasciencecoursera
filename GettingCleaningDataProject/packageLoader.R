@@ -1,3 +1,4 @@
+#This function takes a vector of package names and it make sure that those packages are loaded
 checkDependencies <- function (vectorOfPackageNames)
 {
     for(i in seq_along(vectorOfPackageNames))
@@ -13,6 +14,6 @@ checkDependencies <- function (vectorOfPackageNames)
                 stop(paste("FAIL: unable to install package", currpack))
             }
         }
-        cat("SUCCESS: package",currpack,"loaded")
+        cat("SUCCESS: package",currpack,"loaded\n")
     }
 }
