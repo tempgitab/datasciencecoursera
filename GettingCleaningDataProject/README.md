@@ -19,6 +19,7 @@ In order to perform the analysis you just have to type
 source('run_analysis.R') 
 ```
 the script will take care of loading/installing required packages, download the raw dataset, load the auxiliary functions, perform the analysis and save the resulting tidy dataset (tidy.txt).
+Files `packageLoader.R` and `functions.R` contain the utility functions called by the script
 
 #Data Cleaning Process
 The script will perform the following steps
