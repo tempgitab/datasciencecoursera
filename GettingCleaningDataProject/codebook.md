@@ -15,15 +15,16 @@ It indicates the participant number ID
 
 all **other features** are `floating numbers`
 
-For a description of the features already presents in the original dataset please refer directly to the original features_info.txt
+For a description of the features already presents in the original dataset please refer directly to the original `features_info.txt`
 Only names have been changed with the following rules
+``` r
 t -> time
 f -> frequency
 mean() -> mean
 std() -> StdDev
 "-" have been removed
 and a camelCase convention have been applied.
-
+```
 
 The complete list of all 68 features is the following: 
 ```r
