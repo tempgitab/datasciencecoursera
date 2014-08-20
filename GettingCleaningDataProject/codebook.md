@@ -23,71 +23,26 @@ and a camelCase convention have been applied.
 
 The complete list of all 68 features is the following: 
 
-`activityLabel`
-`subjectId`
-`timeBodyAccMeanX`
-`timeBodyAccMeanY`
-`timeBodyAccMeanZ`
-`timeBodyAccStdDevX`
-`timeBodyAccStdDevY`
-`timeBodyAccStdDevZ`
-`timeGravityAccMeanX`
-`timeGravityAccMeanY`
-`timeGravityAccMeanZ`
-`timeGravityAccStdDevX`
-`timeGravityAccStdDevY`
-`timeGravityAccStdDevZ`
-`timeBodyAccJerkMeanX`
-`timeBodyAccJerkMeanY`
-`timeBodyAccJerkMeanZ`
-`timeBodyAccJerkStdDevX`
-`timeBodyAccJerkStdDevY`
-`timeBodyAccJerkStdDevZ`
-`timeBodyGyroMeanX`
-`timeBodyGyroMeanY`
-`timeBodyGyroMeanZ`
-`timeBodyGyroStdDevX`
-`timeBodyGyroStdDevY`
-`timeBodyGyroStdDevZ`
-`timeBodyGyroJerkMeanX`
-`timeBodyGyroJerkMeanY`
-`timeBodyGyroJerkMeanZ`
-`timeBodyGyroJerkStdDevX`
-`timeBodyGyroJerkStdDevY`
-`timeBodyGyroJerkStdDevZ`
-`timeBodyAccMagMean`
-`timeBodyAccMagStdDev`
-`timeGravityAccMagMean`
-`timeGravityAccMagStdDev`
-`timeBodyAccJerkMagMean`
-`timeBodyAccJerkMagStdDev`
-`timeBodyGyroMagMean`
-`timeBodyGyroMagStdDev`
-`timeBodyGyroJerkMagMean`
-`timeBodyGyroJerkMagStdDev`
-`frequencyBodyAccMeanX`
-`frequencyBodyAccMeanY`
-`frequencyBodyAccMeanZ`
-`frequencyBodyAccStdDevX`
-`frequencyBodyAccStdDevY`
-`frequencyBodyAccStdDevZ`
-`frequencyBodyAccJerkMeanX`
-`frequencyBodyAccJerkMeanY`
-`frequencyBodyAccJerkMeanZ`
-`frequencyBodyAccJerkStdDevX`
-`frequencyBodyAccJerkStdDevY`
-`frequencyBodyAccJerkStdDevZ`
-`frequencyBodyGyroMeanX`
-`frequencyBodyGyroMeanY`
-`frequencyBodyGyroMeanZ`
-`frequencyBodyGyroStdDevX`
-`frequencyBodyGyroStdDevY`
-`frequencyBodyGyroStdDevZ`
-`frequencyBodyAccMagMean`
-`frequencyBodyAccMagStdDev`
-`frequencyBodyAccJerkMagMean`
-`frequencyBodyAccJerkMagStdDev`
-`frequencyBodyGyroMagMean`
-`frequencyBodyGyroMagStdDev`
-`frequencyBodyGyroJerkMagMean`
-`frequencyBodyGyroJerkMagStdDev`
+ [1] "activityLabel"                  "subjectId"                      "timeBodyAccMeanX"              
+ [4] "timeBodyAccMeanY"               "timeBodyAccMeanZ"               "timeBodyAccStdDevX"            
+ [7] "timeBodyAccStdDevY"             "timeBodyAccStdDevZ"             "timeGravityAccMeanX"           
+[10] "timeGravityAccMeanY"            "timeGravityAccMeanZ"            "timeGravityAccStdDevX"         
+[13] "timeGravityAccStdDevY"          "timeGravityAccStdDevZ"          "timeBodyAccJerkMeanX"          
+[16] "timeBodyAccJerkMeanY"           "timeBodyAccJerkMeanZ"           "timeBodyAccJerkStdDevX"        
+[19] "timeBodyAccJerkStdDevY"         "timeBodyAccJerkStdDevZ"         "timeBodyGyroMeanX"             
+[22] "timeBodyGyroMeanY"              "timeBodyGyroMeanZ"              "timeBodyGyroStdDevX"           
+[25] "timeBodyGyroStdDevY"            "timeBodyGyroStdDevZ"            "timeBodyGyroJerkMeanX"         
+[28] "timeBodyGyroJerkMeanY"          "timeBodyGyroJerkMeanZ"          "timeBodyGyroJerkStdDevX"       
+[31] "timeBodyGyroJerkStdDevY"        "timeBodyGyroJerkStdDevZ"        "timeBodyAccMagMean"            
+[34] "timeBodyAccMagStdDev"           "timeGravityAccMagMean"          "timeGravityAccMagStdDev"       
+[37] "timeBodyAccJerkMagMean"         "timeBodyAccJerkMagStdDev"       "timeBodyGyroMagMean"           
+[40] "timeBodyGyroMagStdDev"          "timeBodyGyroJerkMagMean"        "timeBodyGyroJerkMagStdDev"     
+[43] "frequencyBodyAccMeanX"          "frequencyBodyAccMeanY"          "frequencyBodyAccMeanZ"         
+[46] "frequencyBodyAccStdDevX"        "frequencyBodyAccStdDevY"        "frequencyBodyAccStdDevZ"       
+[49] "frequencyBodyAccJerkMeanX"      "frequencyBodyAccJerkMeanY"      "frequencyBodyAccJerkMeanZ"     
+[52] "frequencyBodyAccJerkStdDevX"    "frequencyBodyAccJerkStdDevY"    "frequencyBodyAccJerkStdDevZ"   
+[55] "frequencyBodyGyroMeanX"         "frequencyBodyGyroMeanY"         "frequencyBodyGyroMeanZ"        
+[58] "frequencyBodyGyroStdDevX"       "frequencyBodyGyroStdDevY"       "frequencyBodyGyroStdDevZ"      
+[61] "frequencyBodyAccMagMean"        "frequencyBodyAccMagStdDev"      "frequencyBodyAccJerkMagMean"   
+[64] "frequencyBodyAccJerkMagStdDev"  "frequencyBodyGyroMagMean"       "frequencyBodyGyroMagStdDev"    
+[67] "frequencyBodyGyroJerkMagMean"   "frequencyBodyGyroJerkMagStdDev"
