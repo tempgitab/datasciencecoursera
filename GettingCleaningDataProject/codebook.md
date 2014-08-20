@@ -5,6 +5,7 @@ which have been processed using various techniques. A Detailed description can b
 the original dataset file.
 
 In the tidy dataset only some of these feature have been retained. In particular all that do not have `mean` and `std` in the name have been filtered out. To these, other 2 features have been added: 
+
 **activityLabel**  is a `string/character` variable 
 It indicates the activity performed at the time sensor data was collected and can assume the following values:
     `WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING`
@@ -12,7 +13,7 @@ It indicates the activity performed at the time sensor data was collected and ca
 **subjectId** is an `integer` 
 It indicates the participant number ID
 
-all other features are `floating numbers`
+all **other features** are `floating numbers`
 
 For a description of the features already presents in the original dataset please refer directly to the original features_info.txt
 Only names have been changed with the following rules
