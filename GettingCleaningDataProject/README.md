@@ -13,7 +13,7 @@ In this repository you will find a script (run_analysis.R) that allows to perfor
 
 
 #Getting started:
-In order to perform the analysis you just have to type source('run_analysis.R'). the script will take care of loading/installing required packages, download the raw dataset, load the auxiliary functions, perform the analysis and save the resulting tidy dataset (tidy.txt).
+In order to perform the analysis you just have to type ```r source('run_analysis.R') ```. the script will take care of loading/installing required packages, download the raw dataset, load the auxiliary functions, perform the analysis and save the resulting tidy dataset (tidy.txt).
 
 #Data Cleaning Process
 The script will perform the following steps
