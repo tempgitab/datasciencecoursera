@@ -17,7 +17,7 @@ all **other features** are `floating numbers`
 
 For a description of the features already presents in the original dataset please refer directly to the original `features_info.txt`
 Only names have been changed with the following rules
-``` r
+```
 t -> time
 f -> frequency
 mean() -> mean
