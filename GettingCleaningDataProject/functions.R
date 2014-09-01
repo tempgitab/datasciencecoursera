@@ -49,8 +49,8 @@ filter.rawData <- function(dataset, FeatureRegex){
 
 #this function clean variable names 
 cleanVariableNames <- function (dataset){
-    names(dataset) <- gsub("^t", "Time", names(dataset))
-    names(dataset) <- gsub("^f", "Frequency", names(dataset))
+    names(dataset) <- gsub("^t", "time", names(dataset))
+    names(dataset) <- gsub("^f", "frequency", names(dataset))
     names(dataset) <- gsub("-mean\\(\\)", "Mean", names(dataset))
     names(dataset) <- gsub("-std\\(\\)", "StdDev", names(dataset))
     names(dataset) <- gsub("-", "", names(dataset))
